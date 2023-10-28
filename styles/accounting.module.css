@@ -1,0 +1,98 @@
+.Form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 25px;
+  height: 50px;
+}
+
+.Select {
+  height: 30px;
+  width: 60px;
+}
+
+.Number {
+  height: 30px;
+  width: 80px;
+  padding: 5px;
+}
+
+.itemName {
+  height: 30px;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.submitBtn {
+  height: 30px;
+  padding: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.record {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  height: 40px;
+  font-size: 18px;
+  gap: 100px;
+}
+
+.recordAmount,
+.recordName {
+  justify-content: flex-start;
+  padding-left: 5px;
+}
+
+.recordAmount {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.recordDelete {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.recordDelete:hover {
+  background-color: #eee;
+}
+
+.incomeColor {
+  color: red;
+}
+
+.expenseColor {
+  color: green;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.backToIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Btn {
+  height: 50px;
+  cursor: pointer;
+  padding: 5px;
+}

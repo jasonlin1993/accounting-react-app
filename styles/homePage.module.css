@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #223345;
+  color: white;
+  font-family: "微軟正黑體";
+  height: 100px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: deepskyblue;
+  color: white;
+  font-family: "微軟正黑體";
+  height: 160px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.clickBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
