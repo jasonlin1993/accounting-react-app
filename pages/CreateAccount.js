@@ -14,9 +14,15 @@ function CreateAccount() {
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .then(() => {
-        setEmail("");
-        setPassword("");
-        router.push("/");
+        // 登出用戶
+        firebase
+          .auth()
+          .signOut()
+          .then(() => {
+            setEmail("");
+            setPassword("");
+            router.push("/");
+          });
       })
       .catch((error) => {
         console.error("註冊失敗:", error);
