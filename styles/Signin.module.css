@@ -1,0 +1,54 @@
+.SignIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Email {
+  padding: 10px 0px;
+}
+
+.Password {
+  padding: 10px 0px;
+}
+
+.inputBox {
+  width: 250px;
+  height: 25px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButtonBox {
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.SignedIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.checkButton {
+  margin: 50px 0px;
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+}
